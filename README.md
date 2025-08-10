@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Heart Disease Prediction Project
 
 ## Overview
@@ -80,3 +81,7 @@ if prediction[0] == 1:
     print("The model predicts a high risk of heart disease.")
 else:
     print("The model predicts a low risk of heart disease.")
+=======
+# heart-disease-prediction
+Machine learning project to analyze and predict heart disease risk using patient data.
+>>>>>>> 46e3e46bda6771ab7e4ee095629dcba46a713676
