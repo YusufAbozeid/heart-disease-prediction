@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Heart Disease Prediction Project
 
 ## Overview
@@ -12,27 +11,26 @@ This project aims to analyze and predict the risk of heart disease using machine
 
 ## Installation
 1. Clone the repository:
+   ```bash
    git clone https://github.com/YusufAbozeid/heart-disease-prediction.git
-cd heart-disease-prediction
+   cd heart-disease-prediction
 
 2.Create and activate a virtual environment (optional but recommended):
 
 bash
 Copy code
 python -m venv env
-source env/bin/activate    # On Windows use `env\Scripts\activate
+source env/bin/activate    # On Windows use `env\Scripts\activate`
 
 3.Install required packages:
 
 bash
 Copy code
 pip install -r requirements.txt
-
 Usage
+Run the Jupyter notebook in notebooks/ folder to preprocess data and train models.
 
-1.Run the Jupyter notebook in notebooks/ folder to preprocess data and train models.
-
-2.Load the saved model and predict heart disease risk with this example:
+Load the saved model and predict heart disease risk with this example:
 
 python
 Copy code
@@ -81,7 +79,3 @@ if prediction[0] == 1:
     print("The model predicts a high risk of heart disease.")
 else:
     print("The model predicts a low risk of heart disease.")
-=======
-# heart-disease-prediction
-Machine learning project to analyze and predict heart disease risk using patient data.
->>>>>>> 46e3e46bda6771ab7e4ee095629dcba46a713676
